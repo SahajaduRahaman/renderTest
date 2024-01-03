@@ -15,7 +15,7 @@ app.use(cors())
 
 
 app.get("/getData", (req, res) => {
-    res.send("server is running")
+    res.send("server is running and updated")
 })
 
 
